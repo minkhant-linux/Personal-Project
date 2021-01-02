@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Fira Code', monospace;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    box-shadow: 1px 1px 10px red;
+}
+
+
+/* Logo  */
+
+#logo, #menu{
+   display: inline-block;
+}
+
+#logo h3{
+    padding: 25px 100px;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* End Logo  */
+
+
+
+#menu ul{
+    list-style-type: none;
+    padding-left: 100px;
+}
+
+#menu ul li{
+    display: inline;
+    margin: 10px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.btn{
+    background:  blueviolet;
+    padding: 10px 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px #ccc;
+}
+
+.btn a{
+    color: #fff!important;
+}
+
+/* Header End   */
+
+
+/* Hero Banner */
+
+#banner{
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/hero-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#banner h3{
+    text-align: center;
+    color: #fff;
+    padding-top: 150px;
+    font-size: 40px;
+}
+
+.btn1{
+    background: #ddd;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 600px;
+    line-height: 10;
+}
+
+.btn-primary{
+    background: rgb(5, 8, 175);
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 600px;
+    line-height: 10;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
